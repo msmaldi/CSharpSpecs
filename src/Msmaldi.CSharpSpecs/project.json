@@ -1,21 +1,21 @@
 {
-  "version": "1.0.0-*",
+	"version": "1.0.0-*",
 
-  "dependencies": {
-  },
+	"dependencies": {
+	},
 
-  "frameworks": {
-    "netcoreapp1.0": {
-      "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.0"
-        }
-      }
-    }
-  },
+	"frameworks": {
+		"netcoreapp1.0": {
+			"dependencies": {
+				"Microsoft.NETCore.App": {
+					"type": "platform",
+					"version": "1.0.0"
+				}
+			}
+		}
+	},
 
-  "tooling": {
-    "defaultNamespace": "Msmaldi.CSharpSpecs"
-  }
+	"tooling": {
+		"defaultNamespace": "Msmaldi.CSharpSpecs"
+	}
 }
