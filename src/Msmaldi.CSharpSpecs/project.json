@@ -2,17 +2,12 @@
 	"version": "1.0.0-*",
 
 	"dependencies": {
+		"System.Runtime": "4.1.0",
+		"System.Console": "4.0.0"
 	},
 
 	"frameworks": {
-		"netcoreapp1.0": {
-			"dependencies": {
-				"Microsoft.NETCore.App": {
-					"type": "platform",
-					"version": "1.0.0"
-				}
-			}
-		}
+		"netstandard1.3": {}
 	},
 
 	"tooling": {
